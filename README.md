@@ -1,5 +1,7 @@
-Jmaghreb'14 Voting System
-=====================================
+                                                         JConRates
+
+                                                 "Conferences Voting System"
+                                            =====================================
 
 This is the repository for JMaghreb Voting system: MoroccoJUG team.
 
