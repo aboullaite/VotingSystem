@@ -1,0 +1,26 @@
+eclipse with-source=true
+run
+start
+run
+start -Dhttp.port=80
+start -Dhttp.port=81
+start -Dhttp.port=9000
+start -Dhttp.port=80
+run
+start
+start -Dhttp.port=80
+start -Dhttp.port=8080
+start
+start -Dhttp.port=90
+start -Dhttp.port=8080
+start -Dhttp.port=8080 -Dhttp.address=192.168.1.33
+start -Dhttp.port=8080 -Dhttp.address=192.168.1.80
+run
+start
+run
+start
+run
+last compile:run
+start
+run
+ls

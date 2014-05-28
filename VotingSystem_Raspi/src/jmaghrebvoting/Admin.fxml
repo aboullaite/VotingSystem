@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="630.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmaghrebvoting.AdminController">
+  <tabs>
+    <Tab text="University Day">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Accordion prefHeight="380.0" prefWidth="630.0">
+                     <panes>
+                        <TitledPane cache="true" prefHeight="286.0" prefWidth="638.0" text="Room 1">
+                           <content>
+                              <GridPane>
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#d01r01s01_click" prefHeight="73.0" prefWidth="300.0" text="D01R01S01">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r01s02_click" prefHeight="93.0" prefWidth="301.0" text="D01R01S02" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r01s03_click" prefHeight="105.0" prefWidth="309.0" text="D01R01S03" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r01s04_click" prefHeight="106.0" prefWidth="336.0" text="D01R01S04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r01s05_click" prefHeight="95.0" prefWidth="324.0" text="D01R01S05" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r01s06_click" prefHeight="116.0" prefWidth="308.0" text="D01R01S06" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </GridPane>
+                           </content>
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                        </TitledPane>
+                        <TitledPane text="Room 2">
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                           <content>
+                              <GridPane>
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#d01r02s01_click" prefHeight="86.0" prefWidth="283.0" text="D01R02S01">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r02s02_click" prefHeight="86.0" prefWidth="287.0" text="D01R02S02" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r02s03_click" prefHeight="88.0" prefWidth="315.0" text="D01R02S03" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r02s04_click" prefHeight="88.0" prefWidth="289.0" text="D01R02S04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </GridPane>
+                           </content>
+                        </TitledPane>
+                        <TitledPane layoutX="10.0" layoutY="10.0" text="Room 3">
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                           <content>
+                              <GridPane>
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#d01r03s01_click" prefHeight="78.0" prefWidth="285.0" text="D01R03S01">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r03s02_click" prefHeight="105.0" prefWidth="308.0" text="D01R03S02" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r03s03_click" prefHeight="110.0" prefWidth="322.0" text="D01R03S03" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r03s04_click" prefHeight="92.0" prefWidth="314.0" text="D01R03S04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r03s05_click" prefHeight="110.0" prefWidth="351.0" text="D01R03S05" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d01r03s06_click" prefHeight="96.0" prefWidth="320.0" text="D01R03S06" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </GridPane>
+                           </content>
+                        </TitledPane>
+                     </panes>
+                  </Accordion>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Conference day 1">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Accordion prefHeight="372.0" prefWidth="600.0">
+                     <panes>
+                        <TitledPane text="Room 1">
+                           <content>
+                              <GridPane>
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#d02r01s01_click" prefHeight="95.0" prefWidth="291.0" text="D02R01S01">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r01s02_click" prefHeight="93.0" prefWidth="301.0" text="D02R01S02" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r01s03_click" prefHeight="105.0" prefWidth="309.0" text="D02R01S03" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r01s04_click" prefHeight="106.0" prefWidth="336.0" text="D02R01S04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </content>
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                        </TitledPane>
+                        <TitledPane text="Room 2">
+                           <content>
+                              <GridPane>
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#d02r02s01_click" prefHeight="86.0" prefWidth="283.0" text="D02R02S01">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r02s02_click" prefHeight="86.0" prefWidth="287.0" text="D02R02S02" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r02s03_click" prefHeight="88.0" prefWidth="315.0" text="D02R02S03" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r02s04_click" prefHeight="88.0" prefWidth="289.0" text="D02R02S04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </content>
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                        </TitledPane>
+                        <TitledPane layoutX="10.0" layoutY="10.0" text="Room 3">
+                           <content>
+                              <GridPane>
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#d02r03s01_click" prefHeight="78.0" prefWidth="285.0" text="D02R03S01">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r03s02_click" prefHeight="105.0" prefWidth="308.0" text="D02R03S02" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r03s03_click" prefHeight="110.0" prefWidth="322.0" text="D02R03S03" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r03s04_click" prefHeight="92.0" prefWidth="314.0" text="D02R03S04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d02r03s05_click" prefHeight="110.0" prefWidth="351.0" text="D02R03S05" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </content>
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                        </TitledPane>
+                     </panes>
+                  </Accordion>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Conference day 2">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Accordion prefHeight="372.0" prefWidth="600.0">
+                     <panes>
+                        <TitledPane text="Room 1">
+                           <content>
+                              <GridPane>
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#d03r01s01_click" prefHeight="95.0" prefWidth="291.0" text="D03R01S01">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r01s02_click" prefHeight="93.0" prefWidth="301.0" text="D03R01S02" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r01s03_click" prefHeight="105.0" prefWidth="309.0" text="D03R01S03" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r01s04_click" prefHeight="106.0" prefWidth="336.0" text="D03R01S04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r01s05_click" prefHeight="95.0" prefWidth="324.0" text="D03R01S05" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r01s06_click" prefHeight="116.0" prefWidth="308.0" text="D03R01S06" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </content>
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                        </TitledPane>
+                        <TitledPane text="Room 2">
+                           <content>
+                              <GridPane>
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#d03r02s01_click" prefHeight="86.0" prefWidth="283.0" text="D03R02S01">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r02s02_click" prefHeight="86.0" prefWidth="287.0" text="D03R02S02" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r02s03_click" prefHeight="88.0" prefWidth="315.0" text="D03R02S03" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r02s04_click" prefHeight="88.0" prefWidth="289.0" text="D03R02S04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </content>
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                        </TitledPane>
+                        <TitledPane layoutX="10.0" layoutY="10.0" text="Room 3">
+                           <content>
+                              <GridPane>
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#d03r03s01_click" prefHeight="113.0" prefWidth="283.0" text="D03R03S01">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r03s02_click" prefHeight="105.0" prefWidth="308.0" text="D03R03S02" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r03s04_click" prefHeight="110.0" prefWidth="322.0" text="D03R03S03" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#d03r03s04_click" prefHeight="135.0" prefWidth="283.0" text="D03R03S04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Arial Unicode MS" size="30.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </content>
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                        </TitledPane>
+                     </panes>
+                  </Accordion>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

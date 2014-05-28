@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmaghrebvoting.AfterVoteController">
+    <children>
+      <Label id="label-bright" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefHeight="80.0" prefWidth="611.0" style="-fx-font-family: Tahoma; fx-tick-length: 20; -fx-minor-tick-length: 14;" text="Thanks for voting!" textAlignment="CENTER">
+         <font>
+            <Font size="49.0" />
+         </font></Label>
+      <ImageView fitHeight="294.0" fitWidth="577.0" layoutX="17.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@afterVote.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

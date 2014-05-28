@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmaghrebvoting.VoteScreenController">
+   <children>
+     <Label id="label-bright" alignment="CENTER" contentDisplay="CENTER" layoutY="29.0" prefHeight="80.0" prefWidth="611.0" style="-fx-font-family: Tahoma; fx-tick-length: 20; -fx-minor-tick-length: 14;" text="Please vote!" textAlignment="CENTER">
+         <font>
+            <Font size="75.0" />
+         </font></Label>
+      <ImageView fitHeight="267.0" fitWidth="591.0" layoutX="172.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vote.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
